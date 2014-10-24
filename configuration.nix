@@ -70,6 +70,7 @@
   services.xserver.enable = true;
   services.xserver.layout = "us";
   # services.xserver.xkbOptions = "eurosign:e";
+  services.xserver.videoDrivers = [ "ati" ];
   services.xserver.desktopManager.default = "none";
   services.xserver.windowManager.xmonad.enable = true;
   services.xserver.windowManager.default = "xmonad";
